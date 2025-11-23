@@ -1,0 +1,119 @@
+/* 
+* TaskFlow - Responsive Styles
+* Mobile First approach overrides
+*/
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem; /* 56px */
+    }
+    
+    .hero-content {
+        text-align: left;
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop (1024px) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4rem; /* 64px */
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .hero-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .hero-text {
+        width: 60%;
+        padding-right: 40px;
+    }
+    
+    .hero-visual {
+        width: 40%;
+        margin-top: 0;
+    }
+    
+    .nav-links {
+        display: flex;
+    }
+    
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Large Desktop (1440px) */
+@media (min-width: 1440px) {
+    h1 {
+        font-size: 4.75rem; /* 76px */
+    }
+    
+    .container {
+        max-width: 1440px;
+    }
+}
+
+/* Mobile adjustments (< 768px) */
+@media (max-width: 767px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+    }
+    
+    .hero-text {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .hero-visual {
+        width: 100%;
+    }
+    
+    .nav-links {
+        display: none; /* Hidden by default on mobile */
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-bg);
+        flex-direction: column;
+        padding: 24px;
+        border-bottom: 1px solid var(--border-light);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 0 0 24px 0;
+    }
+    
+    .cta-group {
+        justify-content: center;
+    }
+    
+    .split-screen {
+        flex-direction: column-reverse;
+    }
+    
+    .split-content, .split-visual {
+        width: 100%;
+    }
+    
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Simplifiez la gestion de votre équipe</title>
+    <meta name="description"
+        content="Une plateforme ultra-rapide, intelligente et pensée pour les équipes qui veulent avancer sans friction.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <img src="assets/img/logos/logo.png" alt="TaskFlow" class="logo-img">
+                TaskFlow
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#" class="btn btn-outline btn-sm">Sign In</a>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-text">
+                        <h1 class="fade-up">Simplifiez la gestion de votre équipe.</h1>
+                        <p class="hero-subtitle fade-up delay-100">Une plateforme ultra-rapide, intelligente et pensée
+                            pour les équipes
+                            qui veulent avancer sans friction.</p>
+
+                        <div class="cta-group fade-up delay-200">
+                            <a href="#" class="btn btn-primary">Try for free</a>
+                            <a href="#" class="btn btn-secondary">Watch demo</a>
+                        </div>
+
+                        <div class="trusted-by-hero fade-up delay-300">
+                            <span class="trusted-label">Trusted by teams at</span>
+                            <div class="hero-logos">
+                                <!-- Simple SVG placeholders for logos to ensure monochrome style -->
+                                <svg class="company-logo" viewBox="0 0 100 30" fill="currentColor">
+                                    <path d="M10,15 L20,5 L30,15 L20,25 Z M40,10 H90 V20 H40 Z" />
+                                </svg>
+                                <svg class="company-logo" viewBox="0 0 100 30" fill="currentColor">
+                                    <circle cx="15" cy="15" r="10" />
+                                    <rect x="35" y="10" width="50" height="10" />
+                                </svg>
+                                <svg class="company-logo" viewBox="0 0 100 30" fill="currentColor">
+                                    <rect x="10" y="5" width="20" height="20" />
+                                    <rect x="40" y="10" width="50" height="10" />
+                                </svg>
+                                <svg class="company-logo" viewBox="0 0 100 30" fill="currentColor">
+                                    <path d="M10,25 L20,5 L30,25 Z M40,10 H90 V20 H40 Z" />
+                                </svg>
+                                <svg class="company-logo" viewBox="0 0 100 30" fill="currentColor">
+                                    <circle cx="15" cy="15" r="5" />
+                                    <circle cx="30" cy="15" r="5" />
+                                    <rect x="50" y="10" width="40" height="10" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual fade-up delay-300">
+                        <!-- CSS-only Kanban Mockup -->
+                        <div class="mockup-container">
+                            <div class="mockup-header">
+                                <div class="mockup-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="mockup-title">Product Roadmap</div>
+                            </div>
+                            <div class="mockup-body">
+                                <!-- Column 1 -->
+                                <div class="kanban-col">
+                                    <div class="col-header">
+                                        <span class="status-dot todo"></span> To Do <span class="count">3</span>
+                                    </div>
+                                    <div class="kanban-card">
+                                        <div class="card-tag design">Design</div>
+                                        <div class="card-title">Refresh Landing Page</div>
+                                        <div class="card-meta">
+                                            <div class="avatars">
+                                                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=60"
+                                                    alt="User" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="kanban-card">
+                                        <div class="card-tag dev">Dev</div>
+                                        <div class="card-title">API Integration</div>
+                                        <div class="card-meta">
+                                            <div class="avatars">
+                                                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=60"
+                                                    alt="User">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Column 2 -->
+                                <div class="kanban-col">
+                                    <div class="col-header">
+                                        <span class="status-dot progress"></span> In Progress <span
+                                            class="count">1</span>
+                                    </div>
+                                    <div class="kanban-card active-card">
+                                        <div class="card-tag marketing">Marketing</div>
+                                        <div class="card-title">Q4 Campaign</div>
+                                        <div class="card-meta">
+                                            <div class="avatars">
+                                                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=60"
+                                                    alt="User">
+                                                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=60"
+                                                    alt="User">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mini Chart -->
+                            <div class="mini-chart">
+                                <div class="chart-line"></div>
+                                <div class="chart-label">+24%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section-padding features-section">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="card feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                            </svg>
+                        </div>
+                        <h3>Task Automation</h3>
+                        <p>Automatisez vos tâches répétitives et gagnez un temps précieux pour ce qui compte vraiment.
+                        </p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
+                            </svg>
+                        </div>
+                        <h3>Real-time Sync</h3>
+                        <p>Collaboration instantanée. Vos données sont synchronisées en temps réel sur tous vos
+                            appareils.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                                <line x1="12" y1="22.08" x2="12" y2="12" />
+                            </svg>
+                        </div>
+                        <h3>Team Insights</h3>
+                        <p>Analysez la performance de votre équipe avec des tableaux de bord détaillés et intuitifs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="section-padding why-us-section">
+            <div class="container">
+                <div class="split-screen">
+                    <div class="split-content">
+                        <h2>Pourquoi choisir TaskFlow ?</h2>
+                        <ul class="benefits-list">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Données chargées en < 2 secondes</strong>
+                                            <p>Une architecture optimisée pour la vitesse.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Automatisations avancées</strong>
+                                    <p>Intégrées au cœur du workflow, sans code.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Interface pensée pour les équipes</strong>
+                                    <p>Pas pour les managers, mais pour ceux qui font.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="split-visual">
+                        <div class="data-viz-card">
+                            <!-- Real Analytics Visual (SVG) -->
+                            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" style="position: absolute; bottom: 0;">
+                                <defs>
+                                    <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#4A3AFF" stop-opacity="0.3" />
+                                        <stop offset="100%" stop-color="#4A3AFF" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <!-- Grid Lines -->
+                                <line x1="40" y1="250" x2="360" y2="250" stroke="rgba(255,255,255,0.1)" />
+                                <line x1="40" y1="190" x2="360" y2="190" stroke="rgba(255,255,255,0.1)" />
+                                <line x1="40" y1="130" x2="360" y2="130" stroke="rgba(255,255,255,0.1)" />
+
+                                <!-- Area Chart -->
+                                <path d="M40 250 L80 180 L140 210 L200 120 L260 160 L320 80 L360 100 V250 H40 Z"
+                                    fill="url(#chartGradient)" />
+                                <path d="M40 250 L80 180 L140 210 L200 120 L260 160 L320 80 L360 100" stroke="#4A3AFF"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <!-- Data Points -->
+                                <circle cx="200" cy="120" r="6" fill="#0A0A0C" stroke="#4A3AFF" stroke-width="2" />
+                                <circle cx="320" cy="80" r="6" fill="#0A0A0C" stroke="#4A3AFF" stroke-width="2" />
+
+                                <!-- Floating Tooltip -->
+                                <g transform="translate(180, 70)">
+                                    <rect width="80" height="30" rx="6" fill="#4A3AFF" />
+                                    <text x="40" y="20" text-anchor="middle" fill="white" font-family="Inter"
+                                        font-size="12" font-weight="600">+128%</text>
+                                    <path d="M40 30 L35 35 L45 35 Z" fill="#4A3AFF" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section-padding pricing-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="fade-up">Pricing simple et transparent</h2>
+                    <p class="fade-up delay-100">Commencez gratuitement, évoluez quand vous êtes prêt.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Starter -->
+                    <div class="card pricing-card fade-up delay-100">
+                        <div class="pricing-header">
+                            <h3>Starter</h3>
+                            <div class="price">0€<span>/mois</span></div>
+                            <p>Pour les individus et petits projets.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Jusqu'à 3 projets</li>
+                            <li>Historique 7 jours</li>
+                            <li>Support communautaire</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline full-width">Commencer</a>
+                    </div>
+
+                    <!-- Team -->
+                    <div class="card pricing-card featured fade-up delay-200">
+                        <div class="badge badge-purple recommended-badge">Recommended</div>
+                        <div class="pricing-header">
+                            <h3>Team</h3>
+                            <div class="price">12€<span>/mois</span></div>
+                            <p>Pour les équipes en croissance.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Projets illimités</li>
+                            <li>Historique illimité</li>
+                            <li>Automatisations (100/mois)</li>
+                            <li>Support prioritaire</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary full-width">Choisir Team</a>
+                    </div>
+
+                    <!-- Business -->
+                    <div class="card pricing-card fade-up delay-300">
+                        <div class="pricing-header">
+                            <h3>Business</h3>
+                            <div class="price">39€<span>/mois</span></div>
+                            <p>Pour les organisations à grande échelle.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>SSO & Sécurité avancée</li>
+                            <li>Automatisations illimitées</li>
+                            <li>Analytics avancés</li>
+                            <li>Account Manager dédié</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline full-width">Contacter les ventes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="section-padding testimonial-section">
+            <div class="container">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"TaskFlow a complètement transformé la façon dont nous gérons nos sprints. C'est l'outil le
+                            plus rapide et le plus intuitif que nous ayons jamais utilisé."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100"
+                            alt="Alex Morgan" class="author-avatar">
+                        <div class="author-info">
+                            <span class="name">Alex Morgan</span>
+                            <span class="role">CTO @ TechStart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">TaskFlow</a>
+                    <p>Designed for modern teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TaskFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

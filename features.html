@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - TaskFlow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <img src="assets/img/logos/logo.png" alt="TaskFlow" class="logo-img">
+                TaskFlow
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="features.html" class="active">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="btn btn-outline btn-sm">Sign In</a>
+                <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-padding" style="padding-top: 160px;">
+            <div class="container text-center">
+                <h1 style="max-width: 800px; margin: 0 auto 24px;">Tout ce dont vous avez besoin pour <span
+                        class="text-gradient">performer</span>.</h1>
+                <p style="max-width: 600px; margin: 0 auto 48px;">Une suite d'outils puissants conçus pour les équipes
+                    modernes.</p>
+            </div>
+        </section>
+
+        <!-- Feature Block 1 -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="split-screen">
+                    <div class="split-content">
+                        <div class="badge badge-purple" style="margin-bottom: 16px;">Automation</div>
+                        <h2>Workflows automatisés</h2>
+                        <p>Ne perdez plus de temps sur les tâches manuelles. Créez des règles simples : "Si X arrive,
+                            alors faire Y".</p>
+                        <ul class="benefits-list">
+                            <li><span class="check-icon">✓</span> Assignation automatique</li>
+                            <li><span class="check-icon">✓</span> Mises à jour de statut</li>
+                            <li><span class="check-icon">✓</span> Notifications Slack/Email</li>
+                        </ul>
+                    </div>
+                    <div class="split-visual">
+                        <div class="card"
+                            style="height: 300px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                            <!-- Abstract Workflow UI -->
+                            <div style="display: flex; align-items: center; gap: 16px;">
+                                <div
+                                    style="background: #1E1E21; padding: 16px; border-radius: 8px; border: 1px solid var(--border-light);">
+                                    Trigger</div>
+                                <div style="width: 40px; height: 2px; background: var(--color-neutral-grey);"></div>
+                                <div
+                                    style="background: var(--color-primary); color: white; padding: 16px; border-radius: 8px; box-shadow: 0 0 20px rgba(74, 58, 255, 0.4);">
+                                    Action</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Block 2 (Reversed) -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="split-screen" style="flex-direction: row-reverse;">
+                    <div class="split-content">
+                        <div class="badge badge-purple" style="margin-bottom: 16px;">Collaboration</div>
+                        <h2>Temps réel, sans conflit</h2>
+                        <p>Voyez qui travaille sur quoi. Les curseurs en temps réel et les commentaires contextuels
+                            rendent la collaboration fluide.</p>
+                        <ul class="benefits-list">
+                            <li><span class="check-icon">✓</span> Curseur live</li>
+                            <li><span class="check-icon">✓</span> Commentaires threads</li>
+                            <li><span class="check-icon">✓</span> Historique des versions</li>
+                        </ul>
+                    </div>
+                    <div class="split-visual">
+                        <div class="card" style="height: 300px; position: relative; overflow: hidden;">
+                            <!-- Abstract Collab UI -->
+                            <div
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 60%; background: #151518; border: 1px solid var(--border-light); border-radius: 8px; padding: 20px;">
+                                <div
+                                    style="width: 60%; height: 8px; background: #333; margin-bottom: 12px; border-radius: 4px;">
+                                </div>
+                                <div
+                                    style="width: 90%; height: 8px; background: #333; margin-bottom: 12px; border-radius: 4px;">
+                                </div>
+                                <div style="width: 40%; height: 8px; background: #333; border-radius: 4px;"></div>
+
+                                <!-- Cursors -->
+                                <div
+                                    style="position: absolute; top: 40px; right: 40px; display: flex; align-items: center; gap: 8px;">
+                                    <div
+                                        style="width: 12px; height: 12px; background: #FF6B6B; transform: rotate(-45deg); clip-path: polygon(0 0, 100% 50%, 50% 100%);">
+                                    </div>
+                                    <span
+                                        style="font-size: 10px; background: #FF6B6B; color: white; padding: 2px 4px; border-radius: 4px;">Sarah</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Grid -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Et bien plus encore</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="card feature-card">
+                        <h3>API Robuste</h3>
+                        <p>Intégrez TaskFlow à vos outils existants avec notre API REST complète.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <h3>Sécurité Enterprise</h3>
+                        <p>SSO, 2FA, et chiffrement de bout en bout pour vos données sensibles.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <h3>Mode Sombre</h3>
+                        <p>Conçu nativement pour le confort visuel, pas juste une option.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="assets/img/logos/logo.png" alt="TaskFlow" class="logo-img">
+                        TaskFlow
+                    </a>
+                    <p>Designed for modern teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TaskFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

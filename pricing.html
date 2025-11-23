@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - TaskFlow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        /* Page specific styles for table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 60px;
+            color: var(--color-white);
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .comparison-table th:first-child,
+        .comparison-table td:first-child {
+            text-align: left;
+            padding-left: 0;
+        }
+
+        .comparison-table th {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            padding-bottom: 32px;
+        }
+
+        .check-mark {
+            color: var(--color-primary);
+            font-weight: bold;
+        }
+
+        .dash-mark {
+            color: var(--color-neutral-grey);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <img src="assets/img/logos/logo.png" alt="TaskFlow" class="logo-img">
+                TaskFlow
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html" class="active">Pricing</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="btn btn-outline btn-sm">Sign In</a>
+                <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-padding" style="padding-top: 160px;">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1>Plans flexibles pour <span class="text-gradient">toutes les équipes</span>.</h1>
+                    <p>Pas de frais cachés. Changez de plan à tout moment.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Starter -->
+                    <div class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter</h3>
+                            <div class="price">0€<span>/mois</span></div>
+                            <p>Pour les individus.</p>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">Commencer</a>
+                    </div>
+
+                    <!-- Team -->
+                    <div class="card pricing-card featured">
+                        <div class="badge badge-purple recommended-badge">Recommended</div>
+                        <div class="pricing-header">
+                            <h3>Team</h3>
+                            <div class="price">12€<span>/mois</span></div>
+                            <p>Pour les startups.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary full-width">Choisir Team</a>
+                    </div>
+
+                    <!-- Business -->
+                    <div class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3>Business</h3>
+                            <div class="price">39€<span>/mois</span></div>
+                            <p>Pour les entreprises.</p>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">Contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="fade-up">Comparaison détaillée</h2>
+                </div>
+
+                <div class="comparison-table-container fade-up delay-200">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Fonctionnalité</th>
+                                <th>Starter</th>
+                                <th>Team</th>
+                                <th>Business</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Projets illimités</td>
+                                <td><span class="dash-mark">—</span></td>
+                                <td><span class="check-mark">✓</span></td>
+                                <td><span class="check-mark">✓</span></td>
+                            </tr>
+                            <tr>
+                                <td>Membres d'équipe</td>
+                                <td>1</td>
+                                <td>Jusqu'à 10</td>
+                                <td>Illimités</td>
+                            </tr>
+                            <tr>
+                                <td>Historique</td>
+                                <td>7 jours</td>
+                                <td>Illimité</td>
+                                <td>Illimité</td>
+                            </tr>
+                            <tr>
+                                <td>Automatisations</td>
+                                <td class="dash-mark">—</td>
+                                <td>100/mois</td>
+                                <td>Illimitées</td>
+                            </tr>
+                            <tr>
+                                <td>Support</td>
+                                <td>Communauté</td>
+                                <td>Email</td>
+                                <td>24/7 Prioritaire</td>
+                            </tr>
+                            <tr>
+                                <td>SSO</td>
+                                <td class="dash-mark">—</td>
+                                <td class="dash-mark">—</td>
+                                <td class="check-mark">✓</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="assets/img/logos/logo.png" alt="TaskFlow" class="logo-img">
+                        TaskFlow
+                    </a>
+                    <p>Designed for modern teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TaskFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
